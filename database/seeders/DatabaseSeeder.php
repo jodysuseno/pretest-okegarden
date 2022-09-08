@@ -19,19 +19,19 @@ class DatabaseSeeder extends Seeder
         $users = [
             [
                 'name'=>'User',
-                'email'=>'user@itsolutionstuff.com',
+                'email'=>'user@mail.com',
                 'role'=>'user',
                 'password'=> bcrypt('123456'),
             ],
             [
                 'name'=>'Gardener',
-                'email'=>'gardener@itsolutionstuff.com',
+                'email'=>'gardener@mail.com',
                 'role'=> 'gardener',
                 'password'=> bcrypt('123456'),
             ],
             [
                 'name'=>'Designer',
-                'email'=>'designer@itsolutionstuff.com',
+                'email'=>'designer@mail.com',
                 'role'=>'designer',
                 'password'=> bcrypt('123456'),
             ],
